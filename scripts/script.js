@@ -32,12 +32,12 @@ function canviar_modo(){ //  canviar modo claro/oscuro
 
     if(cont == 0){      //ns porque la imagen no va con lo anterior asi que lo he hecho con if
         v = document.getElementById('imagen_bombilla');
-        v.src = '/img/bombilla_off.png';
+        v.src = 'img/bombilla_off.png';
         cont = 1;
     }
     else{
         document.getElementById("imagen_bombilla");
-        v.src = '/img/bombilla_on.png';
+        v.src = 'img/bombilla_on.png';
         cont = 0;
     }
    
