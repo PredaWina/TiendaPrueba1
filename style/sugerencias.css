@@ -1,5 +1,6 @@
 .contenedor_sugerencias{    
     background-color: whitesmoke;
+    /* background-color: rgb(75, 74, 74); */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

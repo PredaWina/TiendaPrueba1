@@ -27,7 +27,10 @@ function canviar_modo(){ //  canviar modo claro/oscuro
     z.style.borderColor = (z.style.borderColor == 'rgb(26, 26, 26)') ? 'white' : 'rgb(26, 26, 26)';
 
     w = document.getElementById('body');
-    w.style.backgroundColor = (w.style.backgroundColor == 'rgb(26, 26, 26)') ? 'white' : 'rgb(26, 26, 26)';  
+    w.style.backgroundColor = (w.style.backgroundColor == 'rgb(26, 26, 26)') ? 'white' : 'rgb(26, 26, 26)'; 
+
+    u = document.getElementById('sugerencias');
+    u.style.backgroundColor = (u.style.backgroundColor == 'rgb(75, 74, 74)') ? ' whitesmoke' : 'rgb(75, 74, 74)';  
 
     if(cont == 0){      //ns porque la imagen no va con lo anterior asi que lo he hecho con if
         v = document.getElementById('imagen_bombilla');
@@ -44,5 +47,3 @@ function canviar_modo(){ //  canviar modo claro/oscuro
     }
     console.log("Cont = " + cont);
 }
-    
-
