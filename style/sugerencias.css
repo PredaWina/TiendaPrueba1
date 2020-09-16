@@ -12,7 +12,8 @@
     border-radius: 18px;
     /* justify-items: center;
     align-content: center;   */
-    overflow: hidden;
+    overflow-x: auto;
+
     
 }   
 
