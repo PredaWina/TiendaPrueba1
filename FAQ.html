@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
     <link rel="stylesheet" href="style/FAQ.css">
-    
-    <title>FAQ</title>
+    <script src="scripts/script.js"></script>
+    <title>MyGames - FAQ</title>
 </head>
-<body>
-    <!-- -----------------------------Cabecera -------------------------------------->
-    <header class="cabecera_principal">
+<body id="body">
+<!-- -----------------------------Cabecera -------------------------------------->
+    <header class="cabecera_principal" id="cabecera">
         <section class="cabecera_menu caja">
-            <!-- <button class="boton" type="button" onclick="tocar_boton()"><img src="img\icono_menu.png" alt="icono_menu" height="100" width="100"></button> -->
+            <button class="boton" type="button" onclick="canviar_modo()"><img id="imagen_bombilla" src="img/bombilla_on.png" alt="icono_menu" height="40" width="40"></button>
         </section>
         <section class="cabecera_entitulado caja">
             <!-- <p class="titulo">MyGames</p> -->
-            <img src="/img/titulo.png" alt="">
+            <a href="index.html"><img id="titulo" src="/img/titulo.png" alt=""></a>
         </section>
         <section class="carrito caja">
-            <!-- <section class="carrito_numero">
+            <section class="carrito_numero">
                 <p class="carrito_texto" id="numero_de_elementos">0</p>
-            </section>     -->
             <section class="carrito_imagen" id="carrito_imagen_id">
-                <a href="index.html" class="carrito_imagen_link"><img src="/img/fondo_cuerpo.png" alt="carrito" width="50" height="50" ></a>
+                <a href="#" class="carrito_imagen_link"><img src="/img/carrito.png" alt="carrito" width="50" height="50" ></a>
             </section>
 
         </section>
         
     </header>
-<!-- -----------------------------Cuerpo -------------------------------------->
+<!-- -----------------------------Articulos -------------------------------------->
     <section class="contenido">
-    
         <section class="cuerpo">
             <Section>
                 <p class="titulo">FAQ</p>
@@ -71,20 +70,20 @@
                 </section>
             </section>
         </section>
-            
-
-        
-        <!-- <aside class="contenedor_anuncio">
-            <section c  lass="anuncio" id="anuncio_1">
-                <img src="/img/2.jpg" alt="" height="300px" width="20%">
-    
+<!-- -----------------------------Anuncios -------------------------------------->
+        <aside class="contenedor_anuncio" id="anuncios">
+            <section class="anuncio" id="anuncio_1">
+                <a href="#" ><img src="/img/anuncio1.jpg" alt="" class="anuncio_imagen"></a>
             </section>
-    
-        </aside> -->
+            <section class="anuncio" id="anuncio_2">
+                <a href="#" ><img src="/img/anuncio2.jpg" alt="" class="anuncio_imagen"></a>
+            </section>
+        
+        </aside>
 
     </section>
-     
-     <!-----------------------------------FIN DEL CUERPO----------------------------------------->
+
+<!-----------------------------------FIN DEL CUERPO----------------------------------------->
 
 
     
@@ -94,10 +93,10 @@
     <footer class="pie">
 
         <section class="pie_links">
-            <a href="#" class="pie_enlace">FAQ</a>
+            <a href="FAQ.html" class="pie_enlace">FAQ</a>
             <a href="#" class="pie_enlace">Soporte</a> 
-            <a href="#" class="pie_enlace">Donde Encontrarnos</a>
-            <a href="#" class="pie_enlace">Twitter</a>
+            <a href="Donde_Encontrarnos.html" class="pie_enlace">Donde Encontrarnos</a>
+            <a href="test.html" class="pie_enlace">Twitter</a>
             
         </section>
 
