@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
+    <script src="scripts/script.js"></script>
+    <title>Pagina principal</title>
+</head>
+<body id="body">
+<!-- -----------------------------Cabecera -------------------------------------->
+    <header class="cabecera_principal" id="cabecera">
+        <section class="cabecera_menu caja">
+            <button class="boton" type="button" onclick="canviar_modo()"><img id="imagen_bombilla" src="img/bombilla_on.png" alt="icono_menu" height="40" width="40"></button>
+        </section>
+        <section class="cabecera_entitulado caja">
+            <!-- <p class="titulo">MyGames</p> -->
+            <a href="index.html"><img id="titulo" src="/img/titulo.png" alt=""></a>
+        </section>
+        <section class="carrito caja">
+            <section class="carrito_numero">
+                <p class="carrito_texto" id="numero_de_elementos">0</p>
+            <section class="carrito_imagen" id="carrito_imagen_id">
+                <a href="#" class="carrito_imagen_link"><img src="/img/carrito.png" alt="carrito" width="50" height="50" ></a>
+            </section>
+
+        </section>
+        
+    </header>
+<!-- -----------------------------Articulos -------------------------------------->
+    <section class="contenido">
+        <section class="cuerpo" id="cuerpo">
+            <section class="cuerpo_contendor_articulos">
+                <section class="articulo" id="articulo_1">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Fall Guys</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="juego_fallguys.html"><img class="articulo_imagen" src="https://s3.gaming-cdn.com/images/products/7421/271x377/fall-guys-ultimate-knockout-collectors-edition-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">20</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_2">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Dead by Daylight</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s3.gaming-cdn.com/images/products/1904/271x377/dead-by-daylight-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">5,46</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_3">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Minecraft</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s2.gaming-cdn.com/images/products/442/271x377/minecraft-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">19</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_4">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Among Us</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s2.gaming-cdn.com/images/products/7522/271x377/among-us-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">4</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_5">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">ARK</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s2.gaming-cdn.com/images/products/904/271x377/ark-survival-evolved-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">19,99</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>     
+                <section class="articulo" id="articulo_6">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Marvel's Avengers</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s1.gaming-cdn.com/images/products/4836/271x377/marvels-avengers-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">45</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_7">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">NBA 2K21</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s1.gaming-cdn.com/images/products/7107/271x377/nba-2k21-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">45</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_8">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">GTA 5</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s1.gaming-cdn.com/images/products/186/271x377/grand-theft-auto-v-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">20</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+                <section class="articulo" id="articulo_9">
+                    <section class="articulo_contenedor_nombre">
+                        <h1 class="articulo_nombre">Escape from Tarkov</h1>    
+                    </section>
+                    <section class="articulo_contenedor_imagen">
+                        <a href="index.html"><img class="articulo_imagen" src="https://s3.gaming-cdn.com/images/products/2360/271x377/escape-from-tarkov-beta-cover.jpg" alt=""></a>        
+                    </section>
+                    <section class="articulo_contenedor_precio">
+                        <section class="articulo_contenedor_precio_texto">
+                            <p class="articulo_precio_estilo" id="articulo_precio">33</p><p class="articulo_precio_estilo"> €</p>
+                        </section>
+                        <section class="articulo_contenedor_precio_boton">
+                            <button class="articulo_añadir" onclick="sumar_carrito()">Añadir</button>
+                        </section>
+                       
+                            
+                    </section>
+                </section>
+            </section>
+        </section>
+<!-- -----------------------------Anuncios -------------------------------------->
+        <aside class="contenedor_anuncio" id="anuncios">
+            <section class="anuncio" id="anuncio_1">
+                <a href="#" ><img src="/img/anuncio1.jpg" alt="" class="anuncio_imagen"></a>
+            </section>
+            <section class="anuncio" id="anuncio_2">
+                <a href="#" ><img src="/img/anuncio2.jpg" alt="" class="anuncio_imagen"></a>
+            </section>
+        
+        </aside>
+
+    </section>
+
+<!-----------------------------------FIN DEL CUERPO----------------------------------------->
+
+
+    
+
+
+<!-- -----------------------------PIE -------------------------------------->
+    <footer class="pie">
+
+        <section class="pie_links">
+            <a href="FAQ.html" class="pie_enlace">FAQ</a>
+            <a href="#" class="pie_enlace">Soporte</a> 
+            <a href="Donde_Encontrarnos.html" class="pie_enlace">Donde Encontrarnos</a>
+            <a href="test.html" class="pie_enlace">Twitter</a>
+            
+        </section>
+
+
+
+    </footer>
+    
+</body>
+</html>
